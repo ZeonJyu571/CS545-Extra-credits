@@ -1,0 +1,17 @@
+class Solution {
+    public int countStudents(int[] students, int[] sandwiches) {
+        // 0 is circular, 1 is square
+        int num_sStudents = Arrays.stream(students).sum();
+        int num_cStudents = students.length - num_sStudents;
+        for(int i = 0; i < sandwiches.length; i++){
+            if (sandwiches[i] == 0 && num_cStudents > 0){
+                num_cStudents --;
+            }else if (sandwiches[i] == 1 && num_sStudents > 0){
+                num_sStudents --;
+            }else{
+                break;
+            }
+        }
+        return num_sStudents + num_cStudents;
+    }
+}
