@@ -1,5 +1,5 @@
 # CS545-Extra-credits
 
-Extra Credit #1: 1700(Easy), 225(Easy), 933(Easy)
+Extra Credit #1: LC1700(Easy), LC225(Easy), LC933(Easy)
 
 Extra Credit #2: Skiplist.java(LC1206, Hard)
