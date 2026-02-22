@@ -1,4 +1,4 @@
-# CS545-Extra-credits
+# CS545-Extra-credits README
 
 Extra Credit #1: LC1700(Easy), LC225(Easy), LC933(Easy)
 
